@@ -2055,7 +2055,7 @@ body {
   background: #F6F6F6; }
 
 .container-footer-contacts {
-  max-width: 1350px;
+  /* max-width: 1350px; */
   display: grid;
   min-height: 265px;
   grid-column: 1 / 2;
