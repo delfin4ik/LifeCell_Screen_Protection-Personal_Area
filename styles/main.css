@@ -1727,8 +1727,10 @@ body {
   font-family: Lato, Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 1vw;
-  line-height: 1.3vw;
+  font-size: 14px;
+  line-height: 17px;
+  /* font-size: 1vw;
+  line-height: 1.3vw; */
   color: #FFFFFF;
   text-transform: uppercase; }
 
