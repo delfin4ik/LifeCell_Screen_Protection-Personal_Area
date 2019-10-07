@@ -60,8 +60,8 @@ $(function () {
     });
 
     $('.slider-document').slick({
-        prevArrow: '<img class="arrow arrow-prev" src="../images/arrow-icon.svg" alt="">',
-        nextArrow: '<img class="arrow arrow-next" src="../images/arrow-icon.svg" alt="">'
+        prevArrow: '<img class="arrow arrow-prev" src="images/arrow-icon.svg" alt="">',
+        nextArrow: '<img class="arrow arrow-next" src="images/arrow-icon.svg" alt="">'
     });
 
     //mobile-menu
