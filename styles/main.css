@@ -450,7 +450,7 @@ body {
 }
 
 .btn-request__blue:hover {
-  background: #ffffff;
+  background: rgba(245, 211, 0, 0.8);
   color: #000000;
   border: 1px solid #F5D300;
 }
@@ -663,7 +663,8 @@ body {
 .lk-menu li {
   cursor: pointer;
   margin-right: 3.9583333333vw;
-  font: 0.9375vw "Lato SemiBold";
+  font-size: 18px;
+  line-height: 22px;
   position: relative;
 }
 
@@ -1028,7 +1029,7 @@ body {
 
 .btn-pay:hover {
   color: #000000;
-  background: #ffffff;
+  background: rgba(245, 211, 0, 0.8);
   border: 1px solid #F5D300;
 }
 
