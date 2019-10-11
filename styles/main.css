@@ -452,7 +452,7 @@ body {
 .btn-request__blue:hover {
   background: rgba(245, 211, 0, 0.8);
   color: #000000;
-  border: 1px solid #F5D300;
+  /* border: 1px solid #F5D300; */
 }
 
 .btn-request__red {
@@ -1030,7 +1030,7 @@ body {
 .btn-pay:hover {
   color: #000000;
   background: rgba(245, 211, 0, 0.8);
-  border: 1px solid #F5D300;
+  /* border: 1px solid #F5D300; */
 }
 
 .slider-document-count {
