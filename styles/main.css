@@ -751,8 +751,7 @@ body {
 .row-col-lk {
   display: -ms-flexbox;
   display: flex;
-  /* -ms-flex-wrap: wrap;
-      flex-wrap: wrap; */
+  
   margin: 0 -1.5625vw;
 }
 
@@ -765,6 +764,8 @@ body {
 @media (max-width: 767px) {
   .row-col-lk {
     margin: 0 -15px;
+    -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   }
 }
 
