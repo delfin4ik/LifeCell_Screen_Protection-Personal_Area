@@ -121,3 +121,14 @@ function toggleMenu () {
     showMenu = false;
   }
 };
+
+const logout = document.querySelector('.logout');
+const pageLogout = document.querySelector('.page-logout');
+const logoutChoiceCancellation = document.querySelector('.logout_choice_cancellation');
+
+logout.addEventListener('click', toggleLogout);
+logoutChoiceCancellation.addEventListener('click', toggleLogout);
+
+function toggleLogout () {
+    pageLogout.classList.toggle('page-logout_none');
+};
