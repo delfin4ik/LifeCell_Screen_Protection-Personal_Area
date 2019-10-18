@@ -189,7 +189,7 @@ body {
 .lk-l {
   -ms-flex: 0 0 37.5%;
       flex: 0 0 37.5%;
-  background: url("../images/gradient_background.svg") bottom no-repeat;
+  background: url("../images/gradient_background.jpg") bottom no-repeat;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
@@ -1007,7 +1007,7 @@ body {
   color: #000000;
   box-shadow: 0px 4px 8px rgba(196, 196, 196, 0.8);
   font-weight: bold;
-  font-size: calc(18/1920*100vw);
+  font-size: calc(16/1920*100vw);
   line-height: 22px;
   display: -ms-flexbox;
   display: flex;
@@ -1024,7 +1024,7 @@ body {
 
 @media (max-width: 1199px) {
   .btn-pay {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 17px;
     width: 217px;
     height: 44px;
@@ -2170,7 +2170,7 @@ body {
 .footer-contacts_inner {
   display: flex;
   flex-direction: column;
-  width: 215px;
+  width: 547px;
   margin-left: 77.87px;
   align-items: flex-start;
 }
@@ -2193,6 +2193,7 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   color: #000000;
+  width: 215px;
   margin-bottom: 13.19px;
 }
 
