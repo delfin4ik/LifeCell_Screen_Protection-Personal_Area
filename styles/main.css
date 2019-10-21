@@ -827,6 +827,12 @@ body {
   margin-left: 5px;
 }
 
+@media (max-width: 1199px) {
+  .box-info p {
+    font-size: 18px;
+  }
+}
+
 .box-info p {
   font-family: Lato;
   position: relative;
