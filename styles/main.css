@@ -377,7 +377,7 @@ body {
   height: 3.716667vw;
   left: 0;
   bottom: 0;
-  border-top: 1px dashed #000000;
+  border-top: 1px dashed rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1199px) {
@@ -560,6 +560,12 @@ body {
 @media (max-width: 1199px) {
   .logout {
     width: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logout {
+    width: 24px;
   }
 }
 
@@ -1880,6 +1886,12 @@ body {
 @media screen and (max-width: 1199px) {
   .header-top_rights-side {
     width: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-top_rights-side {
+    width: 20px;
   }
 }
 
