@@ -881,8 +881,8 @@ body {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  top: 0.2083333333vw;
-  left: -12px;
+  top: calc(5/1440*100vw);
+  left: -14px;
 }
 
 @media (max-width: 1199px) {
