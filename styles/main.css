@@ -338,8 +338,8 @@ body {
 
 @media (max-width: 991px) {
   .lk-photo {
-    width: 71px;
-    height: 71px;
+    width: 110px;
+    height: 110px;
     margin-bottom: 30px;
   }
 }
@@ -944,6 +944,13 @@ body {
   font-family: Lato;
   font-size: calc(18/1440*100vw);
 }
+
+@media (max-width: 1199px) {
+  .link-download {
+    font-size: 18px;
+}
+}
+
 
 .link-download svg {
   width: calc(27/1440*100vw);
