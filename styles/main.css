@@ -2208,7 +2208,7 @@ body {
   min-height: 178px;
   align-items: center;
   justify-content: center;
-  /* padding-left: calc(175/1440*100vw); */
+  padding: 0 calc(170/1440*100vw);
 }
 
 @media screen and (min-width: 1441px) {
