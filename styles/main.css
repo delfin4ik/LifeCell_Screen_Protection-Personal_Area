@@ -1402,8 +1402,8 @@ body {
 
 @media (max-width: 1199px) {
   .popup-btn-request {
-    width: 111px;
-    height: 30px;
+    width: 165px;
+    height: 48px;
     font-size: 18px;
   }
 }
