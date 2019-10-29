@@ -1958,7 +1958,18 @@ body {
   text-transform: uppercase;
   margin: 3px 7px 0 4px; }
 
+  .language-toggle-arrow {
+    width: calc(11/1920*100vw);
+    height: calc(6/1920*100vw);
+    margin-top: 2px;
+    background: url(../images/language-toggle-arrow.svg) no-repeat;
+    background-size: contain; }
+
   @media (max-width: 1199px) {
+    .language-globe {
+      width: 20px;
+      height: 20px;
+    }
     .language-value {
       font-size: 14px;
     }
@@ -1967,13 +1978,6 @@ body {
       height: 6px;
     }
   }
-
-.language-toggle-arrow {
-  width: calc(11/1920*100vw);
-  height: calc(6/1920*100vw);
-  margin-top: 2px;
-  background: url(../images/language-toggle-arrow.svg) no-repeat;
-  background-size: contain; }
 
 .dropbtn {
   background-color: #143354;
