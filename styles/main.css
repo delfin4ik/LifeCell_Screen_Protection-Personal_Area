@@ -578,7 +578,7 @@ body {
 
 .lk-header {
   width: 100%;
-  padding: calc(18/1920*100vw) calc(159/1920*100vw) calc(16/1920*100vw) calc(171/1920*100vw);
+  padding: calc(18/1920*100vw) calc(230/1920*100vw) calc(16/1920*100vw) calc(230/1920*100vw);
   border-bottom: 1px solid #C4C4C4;
   background-color: #F8AD1E;
   display: -ms-flexbox;
@@ -664,7 +664,7 @@ body {
 .lk-menu {
   display: -ms-flexbox;
   display: flex;
-  margin-left: calc(635/1920*100vw);
+  margin-left: calc(585/1920*100vw);
   align-items: flex-end;
 }
 
@@ -855,6 +855,10 @@ body {
 .box-info p {
   font-family: Lato;
   position: relative;
+}
+
+.box-info_none {
+  display: none;
 }
 
 .box-status {
@@ -1895,7 +1899,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 calc(159/1920*100vw) 0 calc(230/1920*100vw); }
+  padding: 0 calc(230/1920*100vw) 0 calc(230/1920*100vw); }
 
 .nav-site {
   flex: 0 1 calc(397/1920*100vw);
