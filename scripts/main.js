@@ -76,7 +76,7 @@ $(function () {
         }
     });
 
-    $('.form-phone').mask('+7 (999) 999-99-99');
+    $('.form-phone').mask('+38 (999) 999-99-99');
     $('.edit').click(function () {
         $(this).closest('p').find('.form-phone').focus();
     });
