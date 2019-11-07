@@ -1746,6 +1746,12 @@ body {
 .form-elem.error .error-text {
   display: block;
 }
+@media (max-width: 1199px) {
+  .form-elem.error .error-text_mob {
+    display: none;
+  }
+}
+
 
 .form-elem input {
   width: calc(220/1920*100vw);
@@ -1795,20 +1801,24 @@ body {
 }
 
 .error-text {
-  width: 220px;
+  width: calc(220/1920*100vw);
   color: #E2574C;
   margin-top: 0.4166666667vw;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: calc(14/1920*100vw)14px;
+  line-height: calc(24/1920*100vw)24px;
   display: none;
 }
 
 @media (max-width: 1199px) {
   .error-text {
+    width: 220px;
     margin-top: 8px;
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .error-text_mob {
+    display: none;
   }
 }
 

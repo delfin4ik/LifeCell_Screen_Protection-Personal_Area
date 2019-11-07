@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>radar lk</title>
+    <title>LifeCell lk</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="styles/vendor.css">
@@ -20,28 +20,180 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="page-login">
-    <div class="page-logo">
-        <img src="images/logo.png" alt="">
+<header class="header-top">
+    <div class="header-container">
+      <div class="header-top_inner">
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+        <ul class="nav-site">
+          <li><a class="nav-site__item" href="https://www.lifecell.ua/ru/" target="_blank" rel="noopener noreferrer">Индивидуальный</a></li>
+          <li><a class="nav-site__item" href="https://www.lifecell.ua/ru/malyi-biznes-lifecell/glavnaia/" target="_blank" rel="noopener noreferrer">Бизнес</a></li>
+          <li><a class="nav-site__item" href="https://www.lifecell.ua/ru/o_lifecell/glavnaia/" target="_blank" rel="noopener noreferrer">Про компанию</a></li>
+        </ul>
+        <a class="logo" href="https://www.lifecell.ua/ru/" target="_blank" rel="noopener noreferrer">
+          <img src="images/logo_desktop.svg" alt="Company's logo">
+        </a>
+        <div class="dropdown language-switch_desktop">
+          <button class="dropbtn">  
+            <div class="language-globe"></div>
+            <p class="language-value">Ru</p>
+            <div class="language-toggle-arrow"></div>
+          </button>
+          <div class="dropdown-content">
+              <a href="index_en.html">Eng</a>
+              <a href="index_ua.html">Ua</a>
+            </div>
+        </div>
+        <ul class="nav-icons">
+          <li title="Пополнение счета" class="nav-icons__item"><a href="https://oplata.lifecell.ua" class="nav-icons__item_wallet" target="_blank" rel="noopener noreferrer"></a></li>
+        </ul>
+      </div>
     </div>
-    <p class="page-subtitle">Добро пожаловать в Ваш личный кабинет пользователя услуги "Защита экрана"</p>
+  </header>
+    <nav class="nav-page-desk-none menu">
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="#advantages" class="nav-page__item nav-link">
+            Преимущества
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="#packages" class="nav-page__item nav-link">
+            Пакеты
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#steps" class="nav-page__item nav-link">
+            Что делать при повреждени экрана
+          </a>
+        </li>  
+        <li class="nav-item">
+          <a href="#questions" class="nav-page__item nav-link">
+            Вопросы и ответы
+          </a>
+        </li>  
+        <li class="nav-item">
+          <div class="login">
+            <div class="user-login-icon">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.9572 14.5156C16.7996 14.5156 19.9162 11.399 19.9162 7.55664C19.9162 3.7143 16.7996 0.619019 12.9572 0.619019C9.1149 0.619019 5.99829 3.73562 5.99829 7.55664C5.99829 11.3777 9.11485 14.5156 12.9572 14.5156Z"/>
+                <path d="M0.917889 25.3809H25.0821C25.5944 25.3809 26 24.9754 26 24.463C26 19.6601 22.0936 15.7323 17.2693 15.7323H8.73072C3.92776 15.7323 0 19.6387 0 24.463C0 24.9754 0.405577 25.3809 0.917889 25.3809Z"/>
+              </svg>
+            </div>
+            <div class="user-login-text">
+              <a href="page-login.html" class="nav-page__item nav-link">
+                Личный кабинет
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item lang-desk-none">
+          <div class="dropdown">
+            <button class="dropbtn">  
+              <div class="language-globe"></div>
+              <p class="language-value">Ru</p>
+              <div class="language-toggle-arrow"></div>
+            </button>
+            <div class="dropdown-content">
+                <a href="index_en.html">Eng</a>
+                <a href="index_ua.html">Ua</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+<div class="page-login">
+    <h2 class="page-subtitle">Добро пожаловать в Ваш личный кабинет пользователя услуги</h2>
+    <div class="page-logo">
+      <div class="title-line"></div>
+      <h1 class="page-title">"Защита экрана"</h1>
+      <div class="title-line"></div>
+    </div>
     <div class="form-login">
         <form action="">
             <label class="form-elem error">
                 <p class="elem-title">Логин</p>
                 <input type="text" class="form-phone">
+                <p class="error-text error-text_mob"></p>
                 <p class="error-text">Укажитите корректрый логин</p>
             </label>
             <label class="form-elem error">
                 <p class="elem-title">Пароль</p>
                 <input type="password">
+                <p class="error-text error-text_mob"></p>
                 <p class="error-text">Не верный пароль</p>
             </label>
             <input type="submit" value="Войти">
         </form>
     </div>
-    <a href="#" class="page-link">Забыли пароль?</a>
+    <!-- <a href="#" class="page-link">Забыли пароль?</a> -->
 </div>
+<div class="page-logout page-logout_none">
+    <div class="page-logout_blur"></div>
+    <div class="page-logout_modal">
+      <div class="page-logout_header"><h2>Вы действительно 
+        хотите выйти?</h2></div>
+      <ul class="logout_choice">
+        <li class="logout_choice_cancellation"><a href="index.html">Отмена</a></li>
+        <li class="logout_choice_yes"><a href="page-login.html">Да</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <footer class="footer" role="contentinfo">
+    <div class="footer-contacts_wrap">
+      <div class="container-footer-contacts">
+        <p class="footer-notification">ООО «лайфселл» оставляет за собой право устанавливать и изменять тарифы (тарифные планы) на свои услуги, согласно Закону «Про телекоммуникации» от 18.11.2003 г. 1280-IV, изменять перечень таких Услуг, а так же изменять условия, сроки проведения Акции, досрочно прекращать, приостанавливать срок ее проведения в одностороннем порядке в соответствии с Условиями и порядком предоставления телекоммуникационных услуг ООО «лайфселл».</p>
+        <div class="footer-contacts_inner">
+          <a class="footer-contacts_tel" href="tel:0800205433">0 800 20 5433</a>
+          <p class="footer-contacts_explain">Бесплатно со стационарных и мобильные номера ПО УКРАИНЕ</p>
+          <a class="footer-contacts_tel" href="tel:5433">5433</a>
+          <p class="footer-contacts_explain">с мобильного LIFECELL</p>
+        </div>
+      </div>
+    </div>
+      <div class="footer-socials">
+        <p class="socials-text">Присоединись к нам в наших социальных сетях</p>
+        <div class="socials-icons">
+          <a href="https://www.facebook.com/lifecellua/" class="facebook" target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-facebook.svg" alt="icon facebook">
+          </a>
+          <a href="https://www.instagram.com/lifecellua/" class="instagram" target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-instagram.svg" alt="icon instagram">
+          </a>
+          <a href="https://twitter.com/lifecellua" class="twitter" target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-twitter.svg" alt="icon twitter" target="_blank" rel="noopener noreferrer">
+          </a>
+          <a href="https://t.me/lifecellukraine" class="telegram" target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-telegram.svg" alt="icon telegram">
+          </a>
+          <a href="https://www.youtube.com/channel/UCwDnEmbNbxbav2wINakWQAQ?sub_confirmation=1" class="youtube" target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-youtube.svg" alt="icon youtube">
+          </a>
+          <a href="https://www.linkedin.com/company/lifecellua" class="linkedin" target="_blank" rel="noopener noreferrer">
+            <img src="images/icon-linkedin.svg" alt="icon linkedin">
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <div class="container-footer-nav">
+          <a href="#" class="footer-nav_item1">Пользовательское соглашение</a>
+          <a href="#" class="footer-nav_item2">Правила предоставления услуги</a>
+          <a href="#" class="footer-nav_item3">Сервисный центр</a>
+          <a href="#" class="footer-nav_item4">Политика конфиденциальности</a>
+          <a href="#" class="footer-nav_item5">О компании</a>
+          <a href="#" class="footer-nav_item6">Абонентам</a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container container-footer-copyright">
+          <p class="footer-copyright_text">© 2004-2019, ТОВ «лайфселл». Усі права захищено.</p>
+        </div>
+      </div>
+  </footer>
 
 <script src="scripts/vendor.js"></script>
 
