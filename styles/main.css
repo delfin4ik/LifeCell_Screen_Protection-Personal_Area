@@ -476,7 +476,8 @@ body {
 }
 
 .logo-lk {
-  display: block;
+  display: none;
+  /* display: block; */
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 5.0520833333vw;
